@@ -1,0 +1,72 @@
+body {
+margin: 0;
+display: grid;
+box-sizing: border-box;
+font-family: 'Inter';
+}
+.background{
+background-image: linear-gradient(rgba(0,0,0,0,4), rgba(0,0,0,0,4)), url(Forest.jpg);
+background-repeat: no-repeat;
+height: 100%;
+width: 100%;
+background-size: cover;
+position: absolute;
+}
+.container{
+width: 500px;
+height: 600px;
+margin: 8% auto;
+background: #fff;
+border-radius: 5px;
+position: absolute;
+}
+.container form{
+  width: 280px;
+  position: absolute;
+  top: 100px;
+  left: 40px
+}
+.form input{
+ width: 100%;
+ padding: 10px 5px;
+ margin: 5px 0;
+ border: 0;
+ border-bottom: 1px solid #999;
+ outline: none;
+ background: transparent;
+}
+
+.content-wrapper{
+  width: 100%;
+  margin: 4% 10%,5%,10%;
+}
+.content-wrapper img{
+  width:100%
+}
+.text-wrapper{
+  width: 100%;
+  position: relative;
+  margin-top: -30%;
+}
+.heading{
+  text-align: center;
+  color: #000;
+  font-size: 8w;
+}
+
+.form-button{
+  width: 110px;
+  height: 35px;
+  margin: 0 25px;
+  background: linear-gradient(to right, #497b16de, #1e9609);
+  border-radius: 30px;
+  border: 0;
+  outline: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+
+
+
+

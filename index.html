@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoFest Form</title>
+    <link href="https://developers.sendinblue.com/reference/sendtransacemail">
+    <link rel="stylesheet" href="./style.css"/>
+</head>
+
+ <body>
+
+    <div class="background">
+        <img src="../Images/Forest.jpg"
+        alt="Forest" width="861" height="892"/>
+    </div>
+    <div class="container">
+        <form>
+
+          <div class="heading">
+            <h1>Register for ECOFEST 2022</h1>
+          </div>
+    
+        <div class="content-wrapper"> 
+            <input type="text" id="fname" placeholder="First Name"required>    
+        </div>
+
+        <div class="content-wrapper">   
+          <input type="text" id="lname" placeholder="Last Name"required>
+        </div>
+
+        <div class="content-wrapper">
+         <input type="email" id="email" placeholder="Email address"required>
+        </div>
+
+        <div class="content-wrapper">
+        <textarea id="message" rows="4" placeholder="I would like to xxxx"required></textarea>  
+        </div>
+      
+        <button class="form-button"
+        type="submit">SUBMIT</button>
+           
+  </form>     
+
+  <script>
+    var Form= document.getElementById("Form");
+    Submit.onclick = function() {
+      Form.style.left ="-450px";
+    }
+  </script>
+
+
+  </body>
+</html>
+     
+
+   
