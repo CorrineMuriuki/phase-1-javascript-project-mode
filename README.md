@@ -1,4 +1,29 @@
-# Phase 1 Project Guidelines
+Project Owner: Corrine Muriuki
+Project Name: ECOFEST FESTIVAL
+
+Problem Statement
+
+The 3rd edition of the first Rotary Club dedicated to the Environment in Kenya and Africa will be held in June 2023. Part of the learnings last year was creating enough visibility for the Festival which attracted 1,200 people and 10 sponsors. The target this year is to increase the number of people attending the festival for the 3 days it is planned and increase value of sponsors for the Festival.
+
+Solution
+
+Create an online registration page   that allows users  and  sponsor partners to  participate in the 2022 ECOFEST 
+
+MVP
+
+Registration form
+
+API
+
+https://developers.sendinblue.com/reference/sendtransacemail
+
+GitHub Link
+
+https://github.com/CorrineMuriuki/phase-1-javascript-project-mode
+
+
+
+ # Phase 1 Project Guidelines
 
 ## Learning Goals
 
