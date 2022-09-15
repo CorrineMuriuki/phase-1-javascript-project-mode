@@ -29,4 +29,9 @@ fetch(url, options)
   .catch(err => console.error('error:' + err));
 
 
-
+var image = new Image();
+image.onerror = function () {
+   console.error("Cannot load image");
+   //do something else...
+}
+image.src = "https://phase-1-javascript-project-mode/Images/Forest.jpg";
